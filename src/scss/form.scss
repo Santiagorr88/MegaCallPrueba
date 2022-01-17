@@ -1,0 +1,73 @@
+//Colors
+.auth__input {
+  color: #363636;
+  border: 0px;
+  border-bottom: 1px solid #9e9a9a;
+  font-size: 16px;
+  margin-bottom: 10px;
+  height: 35px;
+  width: 100%;
+  transition: border-bottom 0.3s ease;
+  &:focus {
+    border-bottom: 1px solid #5c62c5;
+    outline: none;
+  }
+}
+.mt-1 {
+  margin-top: 5px;
+}
+.mt-5 {
+  margin-top: 20px;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 15px;
+  transition: color 0.3s ease;
+}
+.btn:hover {
+  color: darken($color: white, $amount: 15);
+}
+
+.btn-primary {
+  background-color: #5c62c5;
+  border-radius: 3px;
+}
+.btn-primary:disabled {
+  background-color: lighten($color: #5c62c5, $amount: 15);
+}
+.btn-primary:hover {
+  background-color: darken($color: #5c62c5, $amount: 15);
+}
+
+.btn-block {
+  width: 100%;
+}
+.auth__main {
+  align-items: center;
+  background-color: #5c62c5;
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  height: 80vh;
+  width: 100vw;
+}
+.auth__box-container {
+  background-color: white;
+  box-shadow: 2px 3px #363636;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+}
